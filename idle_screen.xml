@@ -79,6 +79,10 @@
         </DisplayElement>
         <SoftKeys>
 
+
+            <Softkey action="Dial" label="Call" commandArgs="1087" commandId="0" /> 
+
+            
             <SoftKey>
                 <Label>Reception</Label>
                 <Action>
