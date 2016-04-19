@@ -23,6 +23,7 @@
             </DisplayElement>
         </ButtonShape>
     </SoftkeyBar>
+
     <IdleScreen>
         <ShowStatusLine>false</ShowStatusLine>
         <DisplayElement>
@@ -77,6 +78,7 @@
             </DisplayString>
         </DisplayElement>
         <SoftKeys>
+
             <SoftKey>
                 <Label>Reception</Label>
                 <Action>
@@ -86,6 +88,7 @@
                     </Dial>
                 </Action>
             </SoftKey>
+
             <SoftKey>
                 <Label>Bar</Label>
                 <Action>
@@ -95,6 +98,7 @@
                     </Dial>
                 </Action>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <SwitchSCR/>
@@ -103,6 +107,7 @@
                     <conditionType>SubScreen</conditionType>
                 </displayCondition>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <SignIn/>
@@ -111,6 +116,7 @@
                     <conditionType>signIn</conditionType>
                 </displayCondition>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <SignOut/>
@@ -127,6 +133,7 @@
                     <conditionType>backSpace</conditionType>
                 </displayCondition>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <CANCEL/>
@@ -135,6 +142,7 @@
                     <conditionType>backSpace</conditionType>
                 </displayCondition>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <MissedCalls/>
@@ -143,6 +151,7 @@
                     <conditionType>missCall</conditionType>
                 </displayCondition>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <FwdedCalls/>
@@ -151,6 +160,7 @@
                     <conditionType>hasFowardedCallLog</conditionType>
                 </displayCondition>
             </SoftKey>
+
             <SoftKey>
                 <Action>
                     <CancelFwd/>
@@ -184,6 +194,7 @@
                     <conditionType>SubScreen</conditionType>
                 </displayCondition>
             </SoftKey>
+            
         </SoftKeys>
     </IdleScreen>
 </Screen>
