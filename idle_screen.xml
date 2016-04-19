@@ -186,6 +186,27 @@
             <Y>13</Y>
         </DisplayString>
         <SoftKeys>
+
+            <SoftKey>
+                <Label>Reception</Label>
+                <Action>
+                    <Dial>
+                        <Account>0</Account>
+                        <Number>215</Number>
+                    </Dial>
+                </Action>
+            </SoftKey>
+
+            <SoftKey>
+                <Label>Bar</Label>
+                <Action>
+                    <Dial>
+                        <Account>0</Account>
+                        <Number>216</Number>
+                    </Dial>
+                </Action>
+            </SoftKey>
+
             <SoftKey>
                 <Action>
                     <SwitchSCR/>
