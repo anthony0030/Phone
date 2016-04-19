@@ -82,7 +82,7 @@
                 <Action>
                     <Dial>
                         <Account>0</Account>
-                        <Number>1234</Number>
+                        <Number>215</Number>
                     </Dial>
                 </Action>
             </SoftKey>
@@ -91,16 +91,7 @@
                 <Action>
                     <Dial>
                         <Account>0</Account>
-                        <Number>1234</Number>
-                    </Dial>
-                </Action>
-            </SoftKey>
-            <SoftKey>
-                <Label>RoomService</Label>
-                <Action>
-                    <Dial>
-                        <Account>0</Account>
-                        <Number>1234</Number>
+                        <Number>216</Number>
                     </Dial>
                 </Action>
             </SoftKey>
