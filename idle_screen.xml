@@ -40,7 +40,7 @@
         <DisplayElement>
             <!--  COMPANY NAME -->
             <DisplayString font="unifont" halign="center" width="128" bgcolor="White">
-                <DisplayStr>Good Nigth Glenn :D</DisplayStr>
+                <DisplayStr>Welcome Glenn :D</DisplayStr>
                 <!--  default is $b  -->
                 <X>0</X>
                 <Y>12</Y>
