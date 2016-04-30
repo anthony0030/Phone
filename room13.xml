@@ -42,7 +42,7 @@
         <DisplayElement>
             <!--  COMPANY NAME -->
             <DisplayString font="unifont" halign="center" width="128" bgcolor="White">
-                <DisplayStr>Welcome Sofia</DisplayStr>
+                <DisplayStr>Welcome Sofia 2</DisplayStr>
                 <!--  default is $b  -->
                 <X>0</X>
                 <Y>12</Y>
@@ -80,22 +80,14 @@
         </DisplayElement>
         <SoftKeys>
 
-            <SoftKey>
-                <Label>Reception</Label>
-                <Action>
-                    <Dial>
-                        <Account>1</Account>
-                        <Number>*215</Number>
-                    </Dial>
-                </Action>
-            </SoftKey>
+        <SoftKey action="Dial" label="Conf" commandId="0" commandArgs="0216"/>
 
             <SoftKey>
                 <Label>Bar</Label>
                 <Action>
                     <Dial>
                         <Account>1</Account>
-                        <Number>*216</Number>
+                        <Number>216</Number>
                     </Dial>
                 </Action>
             </SoftKey>
@@ -192,8 +184,8 @@
                 <Label>Reception</Label>
                 <Action>
                     <Dial>
-                        <Account>1</Account>
-                        <Number>*215</Number>
+                        <Account>0</Account>
+                        <Number>215</Number>
                     </Dial>
                 </Action>
             </SoftKey>
@@ -202,8 +194,8 @@
                 <Label>Bar</Label>
                 <Action>
                     <Dial>
-                        <Account>1</Account>
-                        <Number>*216</Number>
+                        <Account>0</Account>
+                        <Number>216</Number>
                     </Dial>
                 </Action>
             </SoftKey>
